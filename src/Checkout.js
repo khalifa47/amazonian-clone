@@ -9,7 +9,7 @@ const Checkout = () => {
     return (
         <div className="checkout">
             <div className="checkout_left">
-                <img src="https://m.media-amazon.com/images/I/6138dCMwqPL._SX3000_.jpg" alt="ad" className="checkout_ad" />
+                <img src="6138dCMwqPL.png" alt="ad" className="checkout_ad" />
                 <div>
                     <h2 className="checkout_title">
                         Your shopping basket
