@@ -11,8 +11,10 @@ function App() {
       <div className="app">
         <Header />
         <Routes>
+          <Route path='/login' element={<h1>Login</h1>} />
           <Route path='/checkout' element={<Checkout />} />
           <Route path='/' element={<Home />} />
+          <Route path='*' element={<h1>Page not found</h1>} />
         </Routes>
       </div>
     </Router >
