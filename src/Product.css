@@ -39,3 +39,12 @@
 .product_rating {
   display: flex;
 }
+
+@media screen and (max-width: 600px) {
+  .product_info {
+    height: 200px;
+  }
+  .product {
+    max-height: 440px;
+  }
+}
