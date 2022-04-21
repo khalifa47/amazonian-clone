@@ -3,7 +3,7 @@ import { getFirestore } from 'firebase/firestore';
 import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, onAuthStateChanged, signOut } from 'firebase/auth';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDNrwppKdJ0n3VSLgc0eZQV-AsVtNMP-f8",
+    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
     authDomain: "ian-clone-673b6.firebaseapp.com",
     projectId: "ian-clone-673b6",
     storageBucket: "ian-clone-673b6.appspot.com",
